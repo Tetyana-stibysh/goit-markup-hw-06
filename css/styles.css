@@ -28,7 +28,7 @@ ul {
   color: #f4f4fd;
 }
 
-.nav-studio {
+.nav-link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -36,22 +36,11 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.nav-studio:active,
-.nav-studio:hover,
-.nav-studio:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
-.nav-others {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.nav-others:hover,
-.nav-others:focus {
-  color: #404bbf;
-}
+
 .address {
   font-style: normal;
 }
