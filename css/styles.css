@@ -52,11 +52,13 @@ ul {
 .nav-others:focus {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 .address-link {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -120,8 +122,11 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -141,9 +146,10 @@ ul {
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.2em;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-subtitle {
