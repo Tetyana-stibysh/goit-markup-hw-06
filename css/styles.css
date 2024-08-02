@@ -28,11 +28,9 @@ ol {
   margin: 0;
   padding: 0;
 }
-
-/*img {
+img {
   display: block;
-  max-width: 100%;
-}*/
+}
 .container {
   max-width: 1158px;
   margin-left: auto;
