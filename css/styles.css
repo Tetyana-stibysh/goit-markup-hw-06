@@ -101,6 +101,7 @@ img {
 }
 .address {
   margin-left: auto;
+  font-style: normal;
 }
 .address-list {
   display: flex;
@@ -282,14 +283,12 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 /* #endregion portfolio*/
 /* #region footer*/
