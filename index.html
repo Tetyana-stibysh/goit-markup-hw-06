@@ -521,23 +521,23 @@
           </ul>
         </div>
         <div class="footer-subscr">
-            <p class="subscr-text">Subscribe</p>
-            <form class="subscr-mail" action="">
-                <label class="subscr-label" for="sbs-mail">
-                <input
-                  type="email"
-                  name="sbs-mail"
-                  id="sbs-mail"
-                  placeholder="E-mail"
-                /></label>
-                <button class="btn-subscr" type="submit">
-                  Subscribe
-                  <svg width="24" height="24">
-                    <use href=".//images/icons.svg#icon-frame"></use>
-                  </svg>
-                </button>
-              </form>
-            </div>
+          <p class="subscr-text">Subscribe</p>
+          <form class="subscr-mail">
+            <label class="subscr-label" for="sbs-mail">
+              <input
+                class="subscr-input"
+                type="email"
+                name="sbs-mail"
+                id="sbs-mail"
+                placeholder="E-mail"
+            /></label>
+            <button class="btn-subscr" type="submit">
+              Subscribe
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -581,7 +581,7 @@
             <label class="label-form" for="user-comment">Comment</label>
             <textarea
               class="textarea-comments"
-              name="comments"
+              name="user-comment"
               id="user-comment"
               rows="5"
               placeholder="Text input"
@@ -589,7 +589,7 @@
           </div>
           <div class="answer-field">
             <input
-              class="input-checkbox"
+              class="visually-hidden"
               type="checkbox"
               name="user-privacy"
               value="true"
@@ -598,13 +598,13 @@
             <label class="answer-label answer-text" for="user-privacy">
               <span class="answer-span">
                 <svg width="10" height="8">
-                  <use href="./images/icons.svg#icon-vector"></use>
-                </svg></span>I accept the terms and conditions of the<a class="answer-link" href="">Privacy Policy</a>
-              
+                  <use href="./images/icons.svg#icon-vector"></use></svg></span
+              >I accept the terms and conditions of the<a
+                class="answer-link"
+                href=""
+                >Privacy Policy</a
+              >
             </label>
-    
-             
-            </p>
           </div>
           <button class="btn-modal" type="submit">Send</button>
         </form>
